@@ -1,6 +1,6 @@
-// Fetch product data from the server API
+// Fetch product data from static JSON file
 async function fetchProducts() {
-  const res = await fetch('/api/products');
+  const res = await fetch('/data/products.json');
   if (!res.ok) throw new Error('Failed to load products');
   return res.json();
 }
@@ -55,10 +55,10 @@ async function filterCategory(category) {
   container.innerHTML = "<div class='loading'>Loading...</div>";
 
   try {
-    const data = await fetch('/api/products/all').then(r => r.json());
+    const data = await fetch('/data/products.json').then(r => r.json());
     const filtered = category === "all"
-      ? data
-      : data.filter(p => p.category === category);
+      ? data.allProducts
+      : data.allProducts.filter(p => p.category === category);
     renderProducts(filtered, "category-products");
   } catch (e) {
     container.innerHTML = "<div class='loading'>Failed to load products</div>";
@@ -133,7 +133,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderProducts(data.summerCollection || [], "summer-collection");
     filterCategory("all");
   } catch (e) {
-    console.error(e);
+    console.error("Failed to load products:", e);
+    // Show error message to user
+    document.querySelectorAll('.products-container').forEach(container => {
+      container.innerHTML = '<div class="error">Failed to load products. Please refresh the page.</div>';
+    });
   }
   updateCartCount();
 });

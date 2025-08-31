@@ -1,0 +1,155 @@
+{
+  "newArrivals": [
+    {
+      "name": "Printed Cotton Kurti",
+      "price": 1299,
+      "original": 1799,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Zo4w05_VIgBSpc_mdzpgjgHaKX?w=1000&h=1400&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    },
+    {
+      "name": "Embroidered Silk Kurti",
+      "price": 1899,
+      "original": 2599,
+      "image": "https://tse4.mm.bing.net/th/id/OIP.vy1b4IWZftgBSNJpoRizMQHaJ8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    },
+    {
+      "name": "Printed Aura Kurti",
+      "price": 1299,
+      "original": 1799,
+      "image": "https://ik.imagekit.io/ldqsn9vvwgg/images/1585341.jpg",
+      "category": "kurtis"
+    },
+    {
+      "name": "Printed Zariya Kurti",
+      "price": 1299,
+      "original": 2299,
+      "image": "https://i.etsystatic.com/31482892/r/il/b8231a/5634506241/il_1080xN.5634506241_329v.jpg",
+      "category": "kurtis"
+    },
+    {
+      "name": "Printed Nivah Kurti",
+      "price": 1299,
+      "original": 2299,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.G8jYtzIFRSfQr4_KwW1UlAHaJS?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    }
+  ],
+  "allProducts": [
+    {
+      "name": "Banarasi Silk Saree",
+      "price": 3499,
+      "original": 4999,
+      "image": "https://i.pinimg.com/originals/6c/31/0a/6c310a0c950262dacd447f59e057ea64.jpg",
+      "category": "sarees"
+    },
+    {
+      "name": "Zariyaa Saree",
+      "price": 3499,
+      "original": 4999,
+      "image": "https://i.pinimg.com/originals/be/53/92/be53924ac029d6e492585313554a4914.jpg",
+      "category": "sarees"
+    },
+    {
+      "name": "Meher Saree",
+      "price": 3499,
+      "original": 4999,
+      "image": "https://www.parivarceremony.com/media/catalog/product/cache/62408a38a401bb86dbe3ed2f017b539f/p/r/prc3837.jpg",
+      "category": "sarees"
+    },
+    {
+      "name": "Roohani Saree",
+      "price": 3499,
+      "original": 4999,
+      "image": "https://www.exoticindiaart.com/images/products/original/textiles-2019/gaf778.webp",
+      "category": "sarees"
+    },
+    {
+      "name": "Nazneen Saree",
+      "price": 3499,
+      "original": 4999,
+      "image": "https://tse4.mm.bing.net/th/id/OIP.JX37Q0akXO49cwExHfAmHQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "sarees"
+    },
+    {
+      "name": "Printed Cotton Kurti",
+      "price": 1299,
+      "original": 1799,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Zo4w05_VIgBSpc_mdzpgjgHaKX?w=1000&h=1400&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    },
+    {
+      "name": "Embroidered Silk Kurti",
+      "price": 1899,
+      "original": 2599,
+      "image": "https://tse4.mm.bing.net/th/id/OIP.vy1b4IWZftgBSNJpoRizMQHaJ8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    },
+    {
+      "name": "Printed Aura Kurti",
+      "price": 1299,
+      "original": 1799,
+      "image": "https://ik.imagekit.io/ldqsn9vvwgg/images/1585341.jpg",
+      "category": "kurtis"
+    },
+    {
+      "name": "Printed Zariya Kurti",
+      "price": 1299,
+      "original": 2299,
+      "image": "https://i.etsystatic.com/31482892/r/il/b8231a/5634506241/il_1080xN.5634506241_329v.jpg",
+      "category": "kurtis"
+    },
+    {
+      "name": "Printed Nivah Kurti",
+      "price": 1299,
+      "original": 2299,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.G8jYtzIFRSfQr4_KwW1UlAHaJS?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    },
+    {
+      "name": "Embroidered Kurti Set",
+      "price": 2499,
+      "original": 3499,
+      "image": "https://tse4.mm.bing.net/th/id/OIP.vy1b4IWZftgBSNJpoRizMQHaJ8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "sets"
+    },
+    {
+      "name": "Printed Kurti Set",
+      "price": 1999,
+      "original": 2799,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Zo4w05_VIgBSpc_mdzpgjgHaKX?w=1000&h=1400&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "sets"
+    },
+    {
+      "name": "Designer Kurti Set",
+      "price": 2999,
+      "original": 3999,
+      "image": "https://ik.imagekit.io/ldqsn9vvwgg/images/1585341.jpg",
+      "category": "sets"
+    }
+  ],
+  "summerCollection": [
+    {
+      "name": "Light Cotton Kurti",
+      "price": 999,
+      "original": 1499,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Zo4w05_VIgBSpc_mdzpgjgHaKX?w=1000&h=1400&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "kurtis"
+    },
+    {
+      "name": "Summer Silk Saree",
+      "price": 2499,
+      "original": 3499,
+      "image": "https://i.pinimg.com/originals/6c/31/0a/6c310a0c950262dacd447f59e057ea64.jpg",
+      "category": "sarees"
+    },
+    {
+      "name": "Casual Summer Set",
+      "price": 1499,
+      "original": 1999,
+      "image": "https://tse4.mm.bing.net/th/id/OIP.vy1b4IWZftgBSNJpoRizMQHaJ8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "sets"
+    }
+  ]
+}

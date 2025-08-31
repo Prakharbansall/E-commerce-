@@ -393,6 +393,21 @@ footer {
   text-align: center;
 }
 
+/* Error and Loading Styles */
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--dark);
+  font-weight: 500;
+}
+
 /* Toast Notification Styles - Removed */
 /* Toast notifications have been disabled as requested */
 
