@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAURI | Your Cart</title>
+
+  <!-- Font and Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/cart.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="brand">
+      <img height="50" src="https://www.pngmart.com/files/23/Free-Logos-PNG-Clipart.png" alt="GAURI Logo" />
+      <a href="index.html" class="logo">GAURI</a>
+      <a href="https://instagram.com" class="icon" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/9772246521" class="icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html" class="cart-badge" data-count="0">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <!-- Cart Main Content -->
+  <main class="cart-page">
+    <div class="cart-header">
+      <h2>Your Shopping Cart</h2>
+    </div>
+
+    <div class="cart-grid">
+      <!-- Container where cart items will be rendered -->
+      <div class="cart-items-container" id="cart-items"></div>
+      
+      <!-- Address Entry Form -->
+      <div class="address-section">
+        <form id="address-form" class="address-form">
+          <h3><i class="fas fa-map-marker-alt"></i> Delivery Address</h3>
+          <div class="form-group">
+            <input type="text" id="address-name" placeholder="Full Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" id="address-phone" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="address-email" placeholder="Email Address" required />
+          </div>
+          <div class="form-group">
+            <textarea id="address-details" placeholder="Complete Address (Street, City, State, PIN Code)" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="text" id="address-landmark" placeholder="Landmark (Optional)" />
+          </div>
+          <button type="submit" class="address-btn">
+            <i class="fas fa-save"></i> Save Address
+          </button>
+        </form>
+      </div>
+
+      <!-- Summary section populated via JS -->
+      <div class="cart-summary" id="cart-summary"></div>
+    </div>
+
+    <!-- Checkout Button -->
+    <button id="checkout-btn" class="checkout-btn">
+      <i class="fas fa-credit-card"></i> Proceed to Checkout
+    </button>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="copyright">&copy; 2025 GAURI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/auth.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

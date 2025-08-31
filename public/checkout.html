@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAURI | Checkout</title>
+
+  <!-- Font & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/checkout.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="brand">
+      <img height="50" src="https://www.pngmart.com/files/23/Free-Logos-PNG-Clipart.png" alt="GAURI Logo" />
+      <a href="index.html" class="logo">GAURI</a>
+      <a href="https://instagram.com" class="icon" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/9772246521" class="icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html" class="cart-badge" data-count="0">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Checkout Content -->
+  <main class="checkout-container">
+    <div class="checkout-header">
+      <h2>Order Confirmation</h2>
+      <p>Thank you for your purchase!</p>
+    </div>
+
+    <div class="checkout-grid">
+      <!-- Order Item List -->
+      <section class="order-items">
+        <h3>Your Order</h3>
+        <div id="checkout-items"></div>
+      </section>
+
+     
+
+      <!-- Order Summary Panel -->
+      <aside class="order-summary">
+        <h3>Order Summary</h3>
+        <div id="checkout-total"></div>
+
+        <div class="delivery-info">
+          <h4><i class="fas fa-truck"></i> Delivery Information</h4>
+          <p>Your order will be delivered within 3–5 business days.</p>
+        </div>
+
+        <button class="print-btn">
+          <i class="fas fa-download"></i> Download Receipt
+        </button>
+
+        <a href="index.html" class="continue-shopping">
+          <i class="fas fa-arrow-left"></i> Continue Shopping
+        </a>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Confetti celebration -->
+  <div id="confetti-container" class="confetti"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="copyright">&copy; 2025 GAURI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/auth.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>
